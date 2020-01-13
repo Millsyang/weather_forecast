@@ -212,7 +212,7 @@ public class WeatherActivity extends AppCompatActivity {
         }
 
         aqiText.setText(weather.lifestyleList.get(7).brief);
-        pm25Text.setText("2.5");
+        pm25Text.setText("0.2");
         comfortText.setText(weather.lifestyleList.get(0).brief);
         suggestionText.setText(weather.lifestyleList.get(0).suggestion);
         weatherLayout.setVisibility(View.VISIBLE);
